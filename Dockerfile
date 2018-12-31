@@ -7,7 +7,7 @@ ENV GOPATH="/go" \
     ConfigDir="/config" \
     ConfigName=".rclone.conf" \
     MountCommands="--allow-other --allow-non-empty" \
-    UnmountCommands="-u -z"
+    UnmountCommands="-u -z" \
     RcloneVersion="current"
 
 ## Alpine with Go Git
